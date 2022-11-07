@@ -10,5 +10,7 @@
     "css",
     "vue",
     "html"
-  ]
+  ],
+
+  "css.lint.unknownAtRules": "ignore"
 }
