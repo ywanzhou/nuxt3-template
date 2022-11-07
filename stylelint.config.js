@@ -24,5 +24,18 @@ module.exports = {
         ignorePseudoClasses: ['global', 'v-deep', 'deep'],
       },
     ],
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          'tailwind',
+          'layer',
+          'apply',
+          'variants',
+          'responsive',
+          'screen',
+        ],
+      },
+    ],
   },
 }
