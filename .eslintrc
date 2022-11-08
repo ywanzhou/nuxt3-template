@@ -1,3 +1,9 @@
 {
-  "extends": "@antfu"
+  "plugins": [
+    "tailwindcss"
+  ],
+  "extends": [
+    "plugin:tailwindcss/recommended",
+    "@antfu"
+  ]
 }
