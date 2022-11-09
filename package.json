@@ -28,6 +28,9 @@
     "lint-staged": "lint-staged",
     "commit": "git-cz"
   },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.3"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.29.3",
     "@commitlint/cli": "^17.2.0",
@@ -61,8 +64,5 @@
     "*.{css,html}": [
       "stylelint --cache --fix"
     ]
-  },
-  "dependencies": {
-    "@pinia/nuxt": "^0.4.3"
   }
 }
