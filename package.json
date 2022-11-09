@@ -33,6 +33,8 @@
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "@nuxtjs/tailwindcss": "^6.1.3",
+    "@vueuse/core": "^9.5.0",
+    "@vueuse/nuxt": "^9.5.0",
     "autoprefixer": "^10.0.2",
     "commitizen": "^4.2.5",
     "cz-git": "^1.3.12",
