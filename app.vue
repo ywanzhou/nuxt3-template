@@ -1,3 +1,14 @@
+<script setup>
+useHead({
+  title: 'nuxt3-template',
+  link: [
+    {
+      rel: 'icon', type: 'image/png', href: '/nuxt.png',
+    },
+  ],
+})
+</script>
+
 <template>
   <div class="min-h-screen hero" :style="{ backgroundImage: 'url(https://placeimg.com/1000/800/arch)' }">
     <div class="bg-opacity-60 hero-overlay" />
